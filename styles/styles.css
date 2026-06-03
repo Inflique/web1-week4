@@ -2,6 +2,7 @@ body{
     background-color:cornsilk;
     color:#111133;
     text-align: center;
+    max-width: auto;
 }
 @font-face {
     font-family: 'relationship-of-melodrame';
@@ -17,4 +18,9 @@ header{
 }
 h3{
     font-family:'creato-regular';
+}
+
+/* NEW STYLE TAG DROPPED */
+img{
+    height: 480px;
 }
