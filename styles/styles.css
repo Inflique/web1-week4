@@ -1,12 +1,13 @@
 body{
     background-color:cornsilk;
+    color:#111133;
 }
 @font-face {
     font-family: 'relationship-of-melodrame';
     src: url('fonts/relationship-of-melodrame.ttf'), format('truetype');
 }
 @font-face{
-    font-family: 'creato-regular'
+    font-family: 'creato-regular';
     src: url('fonts/creatodisplay-regular.otf'), format('opentype');
 }
 header{
@@ -14,5 +15,5 @@ header{
     font-family: 'relationship-of-melodrame';
 }
 h3{
-    font-family:''
+    font-family:'creato-regular';
 }
