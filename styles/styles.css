@@ -1,6 +1,7 @@
 body{
     background-color:cornsilk;
     color:#111133;
+    text-align: center;
 }
 @font-face {
     font-family: 'relationship-of-melodrame';
@@ -11,7 +12,7 @@ body{
     src: url('fonts/creatodisplay-regular.otf'), format('opentype');
 }
 header{
-    font-size: 48px;
+    font-size: 36px;
     font-family: 'relationship-of-melodrame';
 }
 h3{
