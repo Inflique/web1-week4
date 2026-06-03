@@ -23,35 +23,39 @@
     <main>
         <br>
         <!-- We makin a form ho -->
-         <form>
+         <form action="contact.html" method="get">
             <section>
                 <label for="firstname">First Name</label>
-                <input type="text" id="firstname"> 
+                <input type="text" id="firstname" name="firstname"> 
                 <label for="lastname">Last name</label>
-                <input type="text" id="lastname">
+                <input type="text" id="lastname" name="lastname">
             </section>
             <br>
             <section>
                 <label for="email">Email</label>
-                <input type="email" id="email">
+                <input type="email" id="email" name="email">
             </section>
             <br>
             <section>
                 <label for="passwordinitial">Create a password</label>
-                <input type="password" id="passwordinitial">
+                <input type="password" id="passwordinitial" name="passwordinitial">
             <br>
                 <label for="passwordconfirm">Confirm your password</label>
-                <input type="password" id="passwordconfirm">
+                <input type="password" id="passwordconfirm" name="passwordconfirm">
             </section>
             <br>
             <section>
                 <label for="date">Select a date</label>
-                <input type="date" id="date">
+                <input type="date" id="date" name="date">
             </section>
             <br>
             <section>
                 <label for="howmany">How many Porsches?</label>
-                <input type="number" id="howmany" min="6" max="7">
+                <input type="number" id="howmany" min="6" max="7" name="howmany">
+            </section>
+            <br>
+            <section>
+                <input type="button" value="Submit">
             </section>
          </form>
     </main>
