@@ -1,7 +1,18 @@
 body{
     background-color:cornsilk;
 }
-
+@font-face {
+    font-family: 'relationship-of-melodrame';
+    src: url('fonts/relationship-of-melodrame.ttf'), format('truetype');
+}
+@font-face{
+    font-family: 'creato-regular'
+    src: url('fonts/creatodisplay-regular.otf'), format('opentype');
+}
 header{
     font-size: 48px;
+    font-family: 'relationship-of-melodrame';
+}
+h3{
+    font-family:''
 }
