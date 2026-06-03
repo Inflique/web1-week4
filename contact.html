@@ -38,10 +38,10 @@
             <br>
             <section>
                 <label for="passwordinitial">Create a password</label>
-                <input type="password" id="passwordinitial" name="passwordinitial">
+                <input type="password" id="passwordinitial" name="passwordinitial" placeholder="At least 8 characters">
             <br>
                 <label for="passwordconfirm">Confirm your password</label>
-                <input type="password" id="passwordconfirm" name="passwordconfirm">
+                <input type="password" id="passwordconfirm" name="passwordconfirm" placeholder="Must match passwords">
             </section>
             <br>
             <section>
@@ -50,12 +50,31 @@
             </section>
             <br>
             <section>
+                <label for="model">Which Singer You Want Sir</label>
+                <select id="model" name="model">
+                    <option>Select one:</option>
+                    <option>911 Singer DLS</option>
+                    <option>930 Singer</option>
+                    <option>Singer Turbo</option>
+                </select>
+
+                <label for="burgundy">Burgundy</label>
+                <input type="radio" id="burgundy" name="color">
+
+                <label for="quartz">Quartz</label>
+                <input type="radio" id="quartz" name="color">
+
+                <label for="teal">Teal</label>
+                <input type="radio" id="teal" name="color">
+            </section>
+            <br>
+            <section>
                 <label for="howmany">How many Porsches?</label>
                 <input type="number" id="howmany" min="6" max="7" name="howmany">
             </section>
             <br>
             <section>
-                <input type="button" value="Submit">
+                <input type="submit" value="Submit" name="submit">
             </section>
          </form>
     </main>
