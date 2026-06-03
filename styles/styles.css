@@ -3,6 +3,7 @@ body{
     color:#111133;
     text-align: center;
     max-width: auto;
+    font-family: 'creato-regular';
 }
 @font-face {
     font-family: 'relationship-of-melodrame';
@@ -15,9 +16,6 @@ body{
 header{
     font-size: 36px;
     font-family: 'relationship-of-melodrame';
-}
-h3{
-    font-family:'creato-regular';
 }
 
 /* NEW STYLE TAG DROPPED */
